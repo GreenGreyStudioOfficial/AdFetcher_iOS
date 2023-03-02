@@ -1,0 +1,11 @@
+framework module AdFetcher {
+  umbrella header "AdFetcher.h"
+
+  export *
+  module * { export * }
+}
+
+module AdFetcher.Swift {
+  header "AdFetcher-Swift.h"
+  requires objc
+}

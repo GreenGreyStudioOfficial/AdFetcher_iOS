@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdFetcher
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AdFetcher
+import CoreLocation
+import CoreTelephony
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol AdFetcherDelegate {
+  @objc optional func log(_ message: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class AdFetcher {
+  weak public var delegate: AdFetcherDelegate?
+  public var key: Swift.String?
+  public static var shared: AdFetcher
+  public func setKey(_ key: Swift.String)
+  public func version() -> Swift.String
+  @objc deinit
+}
