@@ -1,9 +1,9 @@
-# AdFetcher Swift Package
+# AdFetcher
 
 Этот проект содержит бинарный код СДК рекламной сети.
-Он предназначен для встраивания СДК в сторонние приложения через Swift Package Manager.
-Для подключения пакета используется его адрес в гите GreenGreyStudio:
-https://github.com/GreenGreyStudioOfficial/AdFetcher_iOS.git
+Он предназначен для встраивания СДК в сторонние приложения с помощью Cocoapods:
+pod 'AdFetcher', :git => 'https://github.com/GreenGreyStudioOfficial/AdFetcher.git'
+
 
 Импорт 
 import AdFetcher
