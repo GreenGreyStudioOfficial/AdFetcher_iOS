@@ -2,7 +2,7 @@
 
 Этот проект содержит бинарный код СДК рекламной сети.
 Он предназначен для встраивания СДК в сторонние приложения с помощью Cocoapods:
-pod 'AdFetcher', :git => 'https://github.com/GreenGreyStudioOfficial/AdFetcher.git'
+pod 'AdFetcher', :git => 'https://github.com/GreenGreyStudioOfficial/AdFetcher_iOS.git'
 
 
 Импорт 
