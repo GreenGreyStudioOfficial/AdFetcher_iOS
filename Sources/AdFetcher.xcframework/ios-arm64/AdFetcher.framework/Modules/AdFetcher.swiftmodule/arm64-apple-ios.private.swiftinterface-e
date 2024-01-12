@@ -16,9 +16,9 @@ import _SwiftConcurrencyShims
 public enum ADFormat : Swift.Int, Swift.CaseIterable {
   case video, banner, fullscreenBanner
   public init?(rawValue: Swift.Int)
-  public typealias AllCases = [AdFetcher.ADFormat]
+  public typealias AllCases = [ADFormat]
   public typealias RawValue = Swift.Int
-  public static var allCases: [AdFetcher.ADFormat] {
+  public static var allCases: [ADFormat] {
     get
   }
   public var rawValue: Swift.Int {
@@ -26,11 +26,11 @@ public enum ADFormat : Swift.Int, Swift.CaseIterable {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdFetcher : ObjectiveC.NSObject {
-  @objc public static var shared: AdFetcher.AdFetcher
+  @objc public static var shared: AdFetcher
   @objc public func setupWithKey(_ key: Swift.String)
   public func version() -> Swift.String
   @objc deinit
 }
-extension AdFetcher.ADFormat : Swift.Equatable {}
-extension AdFetcher.ADFormat : Swift.Hashable {}
-extension AdFetcher.ADFormat : Swift.RawRepresentable {}
+extension ADFormat : Swift.Equatable {}
+extension ADFormat : Swift.Hashable {}
+extension ADFormat : Swift.RawRepresentable {}
