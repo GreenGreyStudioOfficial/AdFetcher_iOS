@@ -278,7 +278,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import WebKit;
 #endif
 
 #endif
@@ -299,36 +298,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@protocol AdFetcherDelegate;
 @class NSString;
 
 SWIFT_CLASS("_TtC9AdFetcher9AdFetcher")
 @interface AdFetcher : NSObject
-@property (nonatomic, weak) id <AdFetcherDelegate> _Nullable delegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AdFetcher * _Nonnull shared;)
 + (AdFetcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(AdFetcher * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)setupWithKey:(NSString * _Nonnull)key delegate:(id <AdFetcherDelegate> _Nonnull)delegate;
+- (void)setupWithKey:(NSString * _Nonnull)key;
 @end
 
 
-SWIFT_PROTOCOL("_TtP9AdFetcher17AdFetcherDelegate_")
-@protocol AdFetcherDelegate
-@optional
-- (void)log:(NSString * _Nonnull)message;
-@end
-
-
-
-@class WKUserContentController;
-@class WKScriptMessage;
-
-@interface WKWebView (SWIFT_EXTENSION(AdFetcher)) <WKScriptMessageHandler>
-/// message handler
-- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -618,7 +600,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import WebKit;
 #endif
 
 #endif
@@ -639,36 +620,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@protocol AdFetcherDelegate;
 @class NSString;
 
 SWIFT_CLASS("_TtC9AdFetcher9AdFetcher")
 @interface AdFetcher : NSObject
-@property (nonatomic, weak) id <AdFetcherDelegate> _Nullable delegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AdFetcher * _Nonnull shared;)
 + (AdFetcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(AdFetcher * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)setupWithKey:(NSString * _Nonnull)key delegate:(id <AdFetcherDelegate> _Nonnull)delegate;
+- (void)setupWithKey:(NSString * _Nonnull)key;
 @end
 
 
-SWIFT_PROTOCOL("_TtP9AdFetcher17AdFetcherDelegate_")
-@protocol AdFetcherDelegate
-@optional
-- (void)log:(NSString * _Nonnull)message;
-@end
-
-
-
-@class WKUserContentController;
-@class WKScriptMessage;
-
-@interface WKWebView (SWIFT_EXTENSION(AdFetcher)) <WKScriptMessageHandler>
-/// message handler
-- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

@@ -6,7 +6,6 @@
 import CoreLocation
 import CoreTelephony
 import Foundation
-import JavaScriptCore
 import Swift
 import SystemConfiguration
 import UIKit
@@ -26,19 +25,11 @@ public enum ADFormat : Swift.Int, Swift.CaseIterable {
     get
   }
 }
-@objc public protocol AdFetcherDelegate {
-  @objc optional func log(_ message: Swift.String)
-}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdFetcher : ObjectiveC.NSObject {
-  @objc weak public var delegate: (any AdFetcherDelegate)?
   @objc public static var shared: AdFetcher
-  @objc public func setupWithKey(_ key: Swift.String, delegate: any AdFetcherDelegate)
+  @objc public func setupWithKey(_ key: Swift.String)
   public func version() -> Swift.String
   @objc deinit
-}
-extension WebKit.WKWebView : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor(unsafe) public func enableConsoleLog()
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 extension ADFormat : Swift.Equatable {}
 extension ADFormat : Swift.Hashable {}
