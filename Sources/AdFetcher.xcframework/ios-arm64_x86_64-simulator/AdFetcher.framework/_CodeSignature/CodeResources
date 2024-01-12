@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AdFetcher-Swift.h</key>
 		<data>
-		mokeq/kS2iDIl4+TM12/g2YLtPw=
+		X0Ba2tI09GreNIBC+PdwBHbyPJo=
 		</data>
 		<key>Headers/AdFetcher.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kxY1GRX0vRnHvR+mipVEco4r1c8=
+		9hWVPLvoRVS+EaudrvZmYb6Lu6g=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		clT1kcmMxq+FWk4VrcTVm1rwETA=
+		5oEXFxOFQypWn846Xb9bTJ7JxhQ=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QjPLJfy8IE1OOTtSAp7R/V5XRGk=
+		B7soELERFJN79vvbdQl1EZkEK7E=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hfd6zupp0qUEINyYvHqCzfK0L8s=
+		T1sJhlRIM8WiXr71/hoQjoDXtGo=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QjPLJfy8IE1OOTtSAp7R/V5XRGk=
+		B7soELERFJN79vvbdQl1EZkEK7E=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/mBpk7P5WByASb63kKJFwJO2zXA=
+		KFem/5SbvVH9Wz9iNJana4mbyK8=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		clT1kcmMxq+FWk4VrcTVm1rwETA=
+		5oEXFxOFQypWn846Xb9bTJ7JxhQ=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		L03fUFzc0StZxgaR7hkr5nqiM+k=
+		i+5cOoa4QvWUaQm+8TmeRx/gKTE=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Mh9UUjMuWq0641oW8RVD1Czw7oc=
+		UyeC9WaDSkaVakbYqwkEYKejf10=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		L03fUFzc0StZxgaR7hkr5nqiM+k=
+		i+5cOoa4QvWUaQm+8TmeRx/gKTE=
 		</data>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iuiXs//LZWEKUZSVIZ1n/5uxprQ=
+		dtxebxzTNlavt4rqQ1U3fuheAjI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		l3G5Zsw8bQ42d+QEWuiByCKERkw=
+		3J3KNjgeEgrvRHhpeASO0K90omg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmztWP/+saEZyxK/vgMpIZqnXcBCRdFqANHSQt+s0FU=
+			OFU2CclFxLO1jNs6Vlbb5iIQ5Zl60DFzJuXGMkc15p8=
 			</data>
 		</dict>
 		<key>Headers/AdFetcher.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dm2NWTe/+w8EwjuC/oKjXVXK+TECsn0NyAVFjZgh54o=
+			a1x3QI2qTXaCT0ZazX7tTvQ3KwdQw1afz2KTamBtbNI=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			meYgVOimXYzwuk61TBGqNnpweQIVrEVzp0o35Mgdnts=
+			bB/kcU8I84iiqxXR9xMjsyZ8rVW+B2TZruRTkSnKrzg=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z01cCUSC9YgFNe55ZK5B/t1fmt4D3qFOQGaZeg1fjPA=
+			Ep/qMCA4XEO1SMbWd5m8pBEAJVFO2ql9UeAgaBambvs=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			meYgVOimXYzwuk61TBGqNnpweQIVrEVzp0o35Mgdnts=
+			bB/kcU8I84iiqxXR9xMjsyZ8rVW+B2TZruRTkSnKrzg=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Ogp5Qr/fC8lN2AZ/W8Xl2Wlzax092RwpwpZXg+5cTE=
+			xgNG2wkI/+frteuMvOUD+Jjzmp8RoyKGRAUPm4oPbQY=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dm2NWTe/+w8EwjuC/oKjXVXK+TECsn0NyAVFjZgh54o=
+			a1x3QI2qTXaCT0ZazX7tTvQ3KwdQw1afz2KTamBtbNI=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtYKfS5GTBc7igJBW89VzZ970wdpQtkLywOILu41las=
+			inw3N9sYIZap7oC/jDIVRPkuuXjUtLrJobN3J8XPQc4=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/0lCCJF5vy/kr5G21cCt0CQg/oBgCuKBcFtg4FjL+0=
+			q6I28pe5QEp1O3bOzaevnx8oCOdE2W8lJD4tNVyQaH0=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtYKfS5GTBc7igJBW89VzZ970wdpQtkLywOILu41las=
+			inw3N9sYIZap7oC/jDIVRPkuuXjUtLrJobN3J8XPQc4=
 			</data>
 		</dict>
 		<key>Modules/AdFetcher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hnhDvY/M7bCbN4cTlVsC0KhBXVA6DEVkQvOyKAGZwxc=
+			WHvIq58m89Hpn0fcBeS3kW3B10+fhtc8dYdM8Wl8J50=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UctKOrJK7zkLmJiS3iUyb3FDZGCBLBkj+dEKmGVKBDw=
+			E3ojtzUAGM/hnPfjG2mJqPdTOLnLeOJE1TtvBVfgdI0=
 			</data>
 		</dict>
 	</dict>

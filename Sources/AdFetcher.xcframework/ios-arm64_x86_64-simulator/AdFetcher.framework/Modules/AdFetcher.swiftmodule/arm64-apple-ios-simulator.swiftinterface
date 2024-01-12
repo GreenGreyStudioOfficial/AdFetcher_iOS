@@ -1,25 +1,45 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdFetcher
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AdFetcher
 import CoreLocation
 import CoreTelephony
 import Foundation
+import JavaScriptCore
 import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ADFormat : Swift.Int, Swift.CaseIterable {
+  case video, banner, fullscreenBanner
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ADFormat]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [ADFormat] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc public protocol AdFetcherDelegate {
   @objc optional func log(_ message: Swift.String)
 }
-@_hasMissingDesignatedInitializers public class AdFetcher {
-  weak public var delegate: AdFetcherDelegate?
-  public var key: Swift.String?
-  public static var shared: AdFetcher
-  public func setKey(_ key: Swift.String)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdFetcher : ObjectiveC.NSObject {
+  @objc weak public var delegate: (any AdFetcherDelegate)?
+  @objc public static var shared: AdFetcher
+  @objc public func setupWithKey(_ key: Swift.String, delegate: any AdFetcherDelegate)
   public func version() -> Swift.String
   @objc deinit
 }
+extension WebKit.WKWebView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) public func enableConsoleLog()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension ADFormat : Swift.Equatable {}
+extension ADFormat : Swift.Hashable {}
+extension ADFormat : Swift.RawRepresentable {}

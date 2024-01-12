@@ -1,7 +1,7 @@
 framework module AdFetcher {
   umbrella header "AdFetcher.h"
-
   export *
+
   module * { export * }
 }
 
