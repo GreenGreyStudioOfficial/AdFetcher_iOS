@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AdFetcher'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Mobidriven AdFetcher'
 
   s.homepage         = 'https://github.com/GreenGreyStudioOfficial/AdFetcher_iOS'
